@@ -1,0 +1,272 @@
+/* 头部开始 */
+.header{
+    width: 100%;
+    height: 2.66rem;
+    /*background: #cccccc;*/
+    margin: 0 auto;
+}
+.bar{
+    width: 100%;
+    height: 1.36rem;
+    background-color:#ed1b4c;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.circle2 {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 0.24rem;
+    margin-top: 0.24rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.circle1 {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 0.23rem;
+    margin-top: 0.24rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.setting{
+    font-size: 0.24rem;
+    color: #fa1b51;
+}
+.Bar-tittle {
+    width: 1.5rem;
+    height: 0.36rem;
+    font-size: 0.36rem;
+    color: #fbfafa;
+    margin: 0.23rem auto;
+}
+.editor{
+    width: 0.21rem;
+    height: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #fa1b51;
+}
+.introduce {
+    width: 7.03rem;
+    height: 1.79rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(250, 27, 81, 0.19);
+    border-radius: 10px;
+    margin: -0.49rem auto;
+    display: flex;
+}
+.introduce-left {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: #fff;
+    margin: 0.25rem;
+}
+.introduce-left img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.introduce-diyi {
+    width: 4.38rem;
+    height: 0.23rem;
+    /*background: pink;*/
+    margin-top: 0.25rem;
+}
+.introduce-diyi p{
+    font-size: 0.24rem;
+    color: #010101;
+    opacity: 0.6;
+    line-height: 0.23rem;
+}
+.introduce-diyi i {
+    color: #ffb20c;
+    margin-left: 1rem;
+}
+.introduce-diyi span{
+    font-size: 0.18rem;
+}
+.introduce-dier {
+    width: 3.84rem;
+    height: 0.24rem;
+    /*background: #5e7387;*/
+    margin-top: 0.3rem;
+    line-height: 0.24rem;
+}
+.introduce-dier p{
+    font-size: 0.24rem;
+    color: #010101;
+    opacity: 0.6;
+}
+.introduce-last {
+    width: 2.1rem;
+    height: 0.18rem;
+    line-height: 0.18rem;
+    margin-top: 0.27rem;
+    opacity: 0.6;
+}
+.introduce-last i{
+    font-size: 0.28rem;
+}
+.introduce-last span{
+    font-size: 0.24rem;
+    color: #010101;
+}
+/* 头部结束 */
+/* 个人中心钱包开始 */
+.main {
+    width: 100%;
+    height: 8.88rem;
+    /*background: #d58512;*/
+    margin: 0.05rem auto;
+}
+.main-title {
+    width: 7.5rem;
+    height: 1.2rem;
+    /*background: #4cae4c;*/
+    display: flex;
+    margin: 0 auto;
+}
+.main-title-first {
+    width: 5.4rem;
+    height: 0.55rem;
+    /*background: blueviolet;*/
+    margin: 0.4rem auto;
+    display: flex;
+}
+.main-title-one {
+    width: 1.8rem;
+    height: 0.55rem;
+    /*background: plum;*/
+    line-height: 0.25rem;
+}
+.main-title-first span{
+    color: #050505;
+    opacity: 0.6;
+    margin-top: 0.1rem;
+}
+.price {
+    width: 1.8rem;
+    height: 0.18rem;
+    font-family: SanFranciscoDisplay-Medium;
+    font-size: 0.24rem;
+    color: #ffb20c;
+    text-align: center;
+}
+.font{
+    width: 1.8rem;
+    height: 0.23rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    color: #010101;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.main-bd {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+.main-bd-item {
+    width: 7.02rem;
+    height: 0.88rem;
+    background: white;
+    margin: 0.24rem;
+    display: flex;
+}
+.circle {
+    width: 0.66rem;
+    height: 0.66rem;
+    background-color: #fa1b51;;
+    margin:0.11rem 0.24rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.circle i {
+    line-height: 0.66rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color:  #f4f2f2;
+}
+.woDe {
+    width: 1rem;
+    height: 0.22rem;
+    /*background: #4cae4c;*/
+    margin: auto 0;
+    font-size: 0.24rem;
+    color: #050505;
+    opacity: 0.6;
+    line-height: 0.22rem;
+}
+.tubiao {
+    width: 0.86rem;
+    height: 0.36rem;
+    background-color: #ffb20c;
+    border-radius: 18px;
+    margin-left: 3.83rem;
+    margin-top: 0.26rem;
+    text-align: center;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+    color: #fbfbfb;
+}
+.tubiao i {
+    font-size: 0.4rem;
+}
+/* 个人中心钱包结束 */
+/* 个人中心底部开始 */
+.footer {
+    width: 100%;  /* 5.64rem */
+    height: 1rem;  /* 0.94rem */
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-item {
+    width: 0.63rem;
+    height: 0.94rem;
+    top: 0.1rem;
+}
+
+.footer-item img {
+    display: block;
+    width: 0.63rem;
+    height: 0.6rem;
+}
+
+.footer-item p {
+    width: 0.63rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: -0.01rem;
+    color: #fa1b51;
+    opacity: 0.45;
+    line-height: 0.22rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.footer-item p.active{
+    color: #fa1b51;
+    opacity: 1;
+}
+.shouye{
+
+    color: yellow;
+}
+/* 个人中心底部结束 */

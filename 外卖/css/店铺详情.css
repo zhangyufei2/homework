@@ -1,0 +1,386 @@
+.backgroundBig {
+    width: 100%;
+    height: 100%;
+}
+/* 头部开始 */
+.header{
+    width: 100%;
+    height: 2.66rem;
+    /*background: #cccccc;*/
+    margin: 0 auto;
+}
+.bar{
+    width: 100%;
+    height: 1.36rem;
+    background-color:#ed1b4c;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.circle {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 0.23rem;
+    margin-top: 0.24rem;
+}
+.return{
+    line-height: 0.42rem;
+    font-family: "iconfont";
+    margin-left: 0.13rem;
+    font-size: 12px;
+    color: #fa1b51;
+}
+.Bar-tittle {
+    width: 1.15rem;
+    height: 0.36rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    color: #fbfafa;
+    margin: 0.23rem auto;
+    position: relative;
+    margin-left: 2.44rem;
+}
+.sousuo{
+    width: 0.21rem;
+    height: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-family: "iconfont";
+    color: #fa1b51;
+    margin-left: 0.1rem;
+}
+.circle1{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 0.24rem;
+    margin-right: 0.22rem;
+}
+.circle2{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 0.24rem;
+    margin-top: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more{
+    width: 0.21rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    font-family: "iconfont";
+    color: #fa1b51;
+    margin: 0 auto;
+}
+.introduce {
+    width: 7.03rem;
+    height: 1.79rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0 rgba(250, 27, 81, 0.19);
+    border-radius: 10px;
+    margin: -0.49rem auto;
+    display: flex;
+}
+.introduce-left {
+    width: 1.32rem;
+    height: 1.32rem;
+    background: #fa1b51;
+    /*box-shadow: 0 0 0.1rem #f2ab23;*/
+    margin-top: 0.25rem;
+    margin-left: 0.2rem;
+}
+.yushanfang{
+    width: 1.32rem;
+    height: 1.32rem;
+}
+.introduce-right {
+    width: 4.2rem;
+    height: 100%;
+    /*background: #000;*/
+    margin-left: 0.2rem;
+}
+.introduce-diyi {
+    height: 0.25rem;
+    width: 100%;
+    /*background: pink;*/
+    margin-top: 0.26rem;
+    display: flex;
+}
+.introduce-diyi p{
+    line-height: 0.25rem;
+    letter-spacing: 1px;
+    color: #010101;
+    opacity: 0.6;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+}
+.introduce-diyi img {
+    height: 0.25rem;
+    width: 1.42rem;
+    margin-left: 0.3rem;
+}
+.introduce-dier{
+    height: 0.17rem;
+    width: 100%;
+   /* background: red;*/
+    margin-top: 0.2rem;
+}
+.introduce-dier p{
+    font-family: PingFang-SC-Medium;
+    font-size: 00.18rem;
+    line-height: 0.17rem;
+    color: #010101;
+    opacity: 0.6;
+}
+.introduce-last{
+    height: 0.17rem;
+    width: 5rem;  /* 默认100 % */
+    /*
+    background: red;
+    */
+    margin-top: 0.09rem;
+}
+.introduce-last p{
+    font-family: PingFang-SC-Medium;
+    font-size: 00.18rem;
+    line-height: 0.17rem;
+    color: #010101;
+    opacity: 0.6;
+    display: flex;
+}
+.manjian span{
+    color: #fa1b51;;
+}
+.huiyuan span{
+    color:#ffb20c;
+}
+.huiyuan i{
+    font-family: "iconfont";
+    font-size: 0.24rem;
+}
+/* 头部结束 */
+/* 简介开始 */
+.main {
+    width: 100%;
+    height: 8.93rem;
+    background:  #eeeeee;
+    margin: 0.1rem auto;
+}
+.main-main-title {
+    width: 100%;
+    height: 1.18rem;
+    background: #fff;
+}
+.main-tittle {
+    width: 4.79rem;
+    height: 1.18rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.one:nth-child(1){
+    opacity: 1;
+}
+.one{
+    width: 0.95rem;
+    height: 0.41rem;
+    background-color: #ffb20c;
+    border-radius: 21px;
+    text-align: center;
+    opacity: 0.6;
+}
+.one span{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    line-height: 0.41rem;
+    letter-spacing: 0.01rem;
+    color: #fcfbf9;
+}
+.main-bd{
+    width: 7.5rem;
+    height: 7.75rem;
+    background: #eeeeee;
+    display: flex;
+    margin: 0 auto;
+}
+.main-bd-left {
+    width: 1.68rem;
+    height: 6.17rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0.23rem;
+   /* background: pink;*/
+    justify-content: space-around;
+    text-align: center;
+}
+.two {
+    width: 1.2rem;
+    height: 0.5rem;
+    border-radius: 25px;
+    border: solid 0.05rem #fa1b51;
+}
+.two span{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fa1b51;
+    line-height: 0.4rem;
+}
+.two p{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fcf8f9;
+    line-height: 0.4rem;
+}
+.two:nth-child(1){
+    background-color: #ff0000;
+}
+.main-bd-right {
+    width: 5.83rem;
+    height: 100%;
+    /*background: yellow;*/
+}
+.main-bd-right-item {
+    width: 5.56rem;
+    height: 1.58rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    display: flex;
+}
+.main-bd-right-item img {
+    width: 1.23rem;
+    height: 1.17rem;
+    margin: 0.2rem 0.14rem;
+}
+.right-item-middle {
+    width: 3.05rem;
+    height: 100%;
+    /*background: #d58512;*/
+}
+.diyihang {
+    width: 1.84rem;
+    height: 0.35rem;
+    /*background: pink;*/
+    margin-top: 0.15rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    line-height: 0.29rem;
+    letter-spacing: 2px;
+    color: #030303;
+    border-bottom: 2px dashed #a0a0a0;
+}
+.dierhang {
+    width: 3rem;
+    height: 0.17rem;
+    /*background: #00a5c4;*/
+    margin-top: 0.23rem;
+    line-height: 0.17rem;
+    color: #ff006c;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+}
+.dierhang span{
+    color: #ffb20c;
+}
+.disanhang{
+    margin-top:0.15rem;
+    color: #030303;
+    opacity: 0.6;
+    font-size: 0.18rem;
+}
+.disanhang span {
+    color: #ff006c;
+}
+.disihang{
+    color: #ff00a2;
+    font-size: 0.18rem;
+}
+.right-item-right{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #fa1b51;
+    border-radius: 50%;
+    margin: 0.86rem auto;
+    text-align: center;
+}
+.right-item-right i {
+    font-family: "iconfont";
+    color: #fbfbfb;
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+}
+/* 简介结束 */
+/* 底部开始 */
+body,html{
+    padding-bottom:0.9rem;
+}
+.footer {
+    width: 7.5rem;
+    height: 0.9rem;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer-left {
+    width: 0.56rem;
+    height: 0.53rem;
+    /*background: lightgreen;*/
+    margin:auto 0.76rem;
+    margin-right: 0;
+}
+.footer-left i {
+    font-size: 0.56rem;
+    font-family: "iconfont";
+    opacity: 0.6;
+}
+.footer-middle {
+    width: 4.46rem;
+    height: 0.55rem;
+   /* background: yellow;*/
+    margin: auto 0.38rem;
+}
+.footer-middle p{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+    letter-spacing: 1px;
+    color: #040404;
+}
+.footer-middle p:nth-child(2){
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #040404;
+    opacity: 0.6;
+}
+.footer-right {
+    width: 1.2rem;
+    height: 0.5rem;
+    background-color: #000000;
+    border-radius: 25px;
+    opacity: 0.6;
+    margin: auto 0.52rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #fffdfe;
+    line-height: 0.5rem;
+    text-align: center;
+}
+/* 底部结束 */
+

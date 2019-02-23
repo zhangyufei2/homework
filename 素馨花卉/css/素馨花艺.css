@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*头部开始*/
+.flower-header{
+    width: 100%;
+    height: 79px;
+}
+.flower-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.content-title{
+    width: 150px;
+    height: 100%;
+    float: left;
+    margin-right: 417px;
+}
+.content-item{
+    width: 86px;
+    height: 100%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.content-item li1{
+    color:#16b0dc ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 79px;
+    text-align: center;
+}
+.content-item li{
+    color: #2a333c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 79px;
+    text-align: center;
+}
+.content-item li:hover{
+    color:#16b0dc;
+}
+li>a{
+    color: #2a333c;
+    font-size: 14px;
+    text-decoration: none;
+}
+.content-title img{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    color: #37474f;
+    font-weight: 500;
+    margin-top: 14px;
+    box-sizing: border-box;
+}
+/*开始结束*/
+
+.big-box{
+    width: 100%;
+    height: 1223.3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 50%;
+    height: 50%;
+    transition: all 1s;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.box:nth-child(1){
+    background-image: url("../img/花艺1.jpg");
+}
+.box:nth-child(2){
+    background-image: url("../img/花艺2.jpg");
+}
+.box:nth-child(3){
+    background-image: url("../img/花艺3.jpg");
+}
+.box:nth-child(4){
+    background-image: url("../img/花艺4.jpg");
+}
+.zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.box:hover {
+    background-size:130% 130%;
+}
+.box:hover .zhezhao{
+    background: rgba(0, 0, 0, 0.7);
+}
+.content{
+    width: 120px;
+    height: 137px;
+    margin: auto;
+    align-items: center;
+    color: rgba(255,255,255,0.8);
+}
+.time{
+    width: 120px;
+    height: 37.8px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.one{
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 12px auto;
+}
+.c-title{
+    width: 120px;
+    height: 28.8px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.c-look{
+    width: 60px;
+    height: 35.6px;
+    background-color:transparent;
+    border: 1px  solid rgba(255,255,255,.8);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35.6px;
+    color: #fff;
+}
+.banner-bottom{
+    width: 50%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.banner-bottom:hover{
+    background: rgba(0,0,0,0.3);
+}
+.banner-bottom p{
+    color: #2a333c;
+    font-size: 14px;
+}
+.banner-bottom p:hover{
+    font-size: 16px;
+}
+/*底部开始*/
+.footer{
+    width: 100%;
+    height: 182px;
+    background: #f5f5f5;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #f0f2f5;
+    position: relative;
+}
+.linksnav{
+    background: #fff;
+    width: 100%;
+    height: 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.footer-logo{
+    width: 100%;
+    height: 56px;
+    margin-top: 10px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer-logo i{
+    font-size: 26px;
+    font-weight: 400;
+    color: #83b944;
+    line-height: 56px;
+
+}
+.footer-logo i1{
+    font-size: 26px;
+    font-weight: 400;
+    color: #62a8ea;
+    line-height: 56px;
+
+}
+.info-footer{
+    width: 100%;
+    height: 75px;
+    background:#f5f5f5 ;
+}
+.info-footer-a{
+    width: 1170px;
+    height: 75px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.info-footer-a a{
+    color: #62a8ea;
+    text-decoration: none;/*清除下划线*/
+}
+.info-footer-a a:hover{
+    border-bottom: 2px solid #62a8ea;
+}
+.info-footer-a img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.info-footer-a p{
+    color: #76838f;
+}
+/*底部结束*/
+/*返回顶部开始*/
+.button{
+    width: 36px;
+    height: 36px;
+    background: #62a8ea;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+}
+
+/*返回顶部结束*/

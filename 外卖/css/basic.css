@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 100px;
+}
+@media (min-width: 320px){
+    html{
+        font-size:calc(100px*320/750);     /* 42.66667*/
+    }
+}
+
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1019607 */
+    src: url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.eot');
+    src: url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019607_mftmo2pev5q.svg#iconfont') format('svg');
+}
+body{
+    font-size: 12px;
+}
+i{
+    font-style: normal;
+}
